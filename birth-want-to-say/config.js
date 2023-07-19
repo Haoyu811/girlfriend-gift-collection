@@ -4,48 +4,39 @@ var config = {
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
         "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的",  // 同上...
+        "心爱的小宝宝",  // 同上...
         "今天是你的生日",
         "这是我们在一起的",
         "第一个生日！",
-        "我们相爱了165天，我见过你",
+        "这269天来，我见过你",
         "奇怪的样子",
         "可爱的样子",
         "生气的样子",
         "都是我喜欢的样子",
-        "对了，期待你的礼物吗？",
+        "我们度过了很多美好时光",
         "今年要吃好好的",
         "喂饱饱的",
-        "然后才有力气干活",
+        "然后才有力气学习",
         "和想我！",
         "生日快乐~~",
     ],
-    /**
-     * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
-     * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
-     * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
-     *
-     * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
-     * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
-     */
+
     imgs: {
         "送给我": "./imgs/songxinxin.jpeg",
-        "心爱的姑娘": "./imgs/nothing.jpg",
+        "心爱的小宝宝": "./imgs/rrs.jpg",
         "今天是你的生日": "./imgs/shengri.jpeg",
         "这是我们在一起的": "./imgs/zaiyiqi.png",
-        "第三个生日！": "./imgs/nothing.jpg",
-        "这两年来，我见过你": "./imgs/yangzi.jpeg",
-        "奇怪的样子": "./imgs/nothing.jpg",
-        "可爱的样子": "./imgs/nothing.jpg",
-        "生气的样子": "./imgs/nothing.jpg",
-        "都是我喜欢的样子": "./imgs/nothing.jpg",
-        "对了，礼物收全了吗？": "./imgs/chuo.gif",
+        "第一个生日！": "./imgs/diyigeshengri.jpg",
+        "这269天来，我见过你": "./imgs/yangzi.jpeg",
+        "奇怪的样子": "./imgs/qiguai.jpg",
+        "可爱的样子": "./imgs/keai.jpg",
+        "生气的样子": "./imgs/shengqi.jpg",
+        "我们度过了很多美好时光": "./imgs/meihao.jpg",
         "今年要吃好好的": "./imgs/chihaodian.jpeg",
         "喂饱饱的": "./imgs/weibao.jpeg",
-        "然后才有力气干活": "./imgs/nothing.jpg",
-        "和想我！": "./imgs/nothing.jpg",
-        "生日快乐~~": "./imgs/nothing.jpg"
+        "然后才有力气学习": "./imgs/xuexi.jpg",
+        "和想我！": "./imgs/xiangwo.jpg",
+        "生日快乐~~": "./imgs/shengrikuaile.jpg"
     },
     
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
@@ -61,5 +52,5 @@ var config = {
     },
 
     // 结束语
-    loveText: '爱你的X先生~'
+    loveText: '爱你的何宝宝~'
 };
